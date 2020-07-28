@@ -1,3 +1,6 @@
+import prod from './environment.prod.json';
+
 export const environment = {
-  production: true
+  ...prod,
+  production: true,
 };
